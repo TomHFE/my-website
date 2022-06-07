@@ -1,0 +1,15 @@
+.logo {
+  padding: 2rem;
+}
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-family: "Arial Narrow";
+  font-size: 2rem;
+}
+.options {
+  font-size: 3rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
