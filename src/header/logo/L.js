@@ -6,14 +6,14 @@ export default function L() {
     visible: {
       opacity: 1,
       pathLength: 1,
-      transition: { duration: 3, ease: "easeInOut" },
+      transition: { duration: 6, ease: "easeInOut" },
     },
   };
 
   return (
     <motion.svg
-      width="9"
-      height="17"
+      width="50"
+      height="50"
       viewBox="0 0 9 17"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

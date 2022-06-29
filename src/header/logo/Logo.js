@@ -28,7 +28,8 @@ const Logo = () => {
       <motion.h1 className="logo">
         <T />
         <O />
-        <M /> <E />
+        <M />
+        <E />
         <N />
         <G />
         <L />

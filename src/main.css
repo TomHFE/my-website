@@ -1,0 +1,29 @@
+body {
+  background: linear-gradient(
+    -45deg,
+    rgba(0, 0, 255, 0.466),
+    rgb(218, 218, 218)
+  );
+  background-size: 400% 400%;
+  position: relative;
+  animation: change 10s ease-in-out infinite;
+}
+
+@keyframes change {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.about-page {
+  background-color: lavender;
+  position: relative;
+  display: flex;
+  border-radius: 3%;
+}

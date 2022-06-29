@@ -1,19 +1,28 @@
 import { motion } from "framer-motion";
 import Logo from "./logo/Logo";
-import About from "./About";
+import About from "./options/About";
+import Portfolio from "./options/Portfolio";
+import Contact from "./options/Contact";
+import CV from "./options/CV";
 import "./header.css";
+import { Link } from "react-router-dom";
+
 const Header = () => {
   return (
     <div>
-      <motion.div>
+      <motion.div className="header-theme">
         <motion.div>
-          <Logo />
+          <Link to="/">
+            <Logo />
+          </Link>
         </motion.div>
         <motion.div className="header-content">
-          <About />
-          <h3>PORTFOLIO</h3>
-          <h3>CONTACT</h3>
-          <h3>CV</h3>
+          <Link to="/about">
+            <About className="header-options" />
+          </Link>
+          <Portfolio className="header-options" />
+          <Contact className="header-options" />
+          <CV className="header-options" />
         </motion.div>
       </motion.div>
     </div>
