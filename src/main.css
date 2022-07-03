@@ -23,7 +23,24 @@ body {
 
 .about-page {
   background-color: lavender;
-  position: relative;
+  position: absolute;
   display: flex;
   border-radius: 3%;
+  flex: auto;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 28rem;
+  height: 28rem;
+  justify-content: center;
+  justify-items: center;
+  left: 31%;
+  top: 135%;
+  padding: 3rem;
+  font-family: monospace;
+}
+.about-photo {
+  width: 10rem;
+  border-radius: 50%;
 }

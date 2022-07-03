@@ -26,9 +26,9 @@ export default function A() {
         initial="hidden"
         animate="visible"
         stroke={"rgba(0, 0, 0)"}
-        stroke-width="0.5"
-        stroke-linejoin="round"
-        stroke-linecap="round"
+        strokeWidth="0.5"
+        strokeLinejoin="round"
+        strokeLinecap="round"
       />
     </motion.svg>
   );

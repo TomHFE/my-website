@@ -53,3 +53,10 @@
   z-index: -12;
   position: relative;
 }
+
+.intro {
+  position: relative;
+  z-index: 2;
+  padding: 3rem;
+  font-family: monospace;
+}

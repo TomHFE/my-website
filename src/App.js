@@ -1,6 +1,6 @@
 import Header from "./header/Header";
 import Homepage from "./homepage/Homepage";
-import AboutPage from "./AboutPage";
+import AboutPage from "./aboutPage/AboutPage";
 import { Route, Routes } from "react-router";
 import "./main.css";
 
