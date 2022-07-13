@@ -1,14 +1,56 @@
-body {
+/* body {
   background: linear-gradient(
     -45deg,
     rgba(0, 0, 255, 0.466),
     rgb(218, 218, 218)
   );
-  background-size: 400% 400%;
+  background-size: 100%;
   position: relative;
   animation: change 10s ease-in-out infinite;
+  width: 100%;
+} */
+
+body {
+  background: linear-gradient(
+    -100deg,
+    rgba(111, 111, 139, 0.493),
+    rgba(110, 135, 245, 0.74)
+  );
 }
 
+.about-page {
+  background-color: lavender;
+  margin: auto;
+  display: flex;
+  border-radius: 3%;
+  flex: auto;
+  flex-direction: column;
+  text-align: center;
+  width: 28rem;
+  height: 28rem;
+  justify-content: flex-start;
+  justify-items: flex-start;
+  left: 31%;
+  /* top: 135%; */
+  padding: 3rem;
+  font-family: monospace;
+  box-shadow: 5px 6px 5px rgba(0, 0, 0, 0.377);
+}
+.about-photo {
+  width: 10rem;
+  border-radius: 50%;
+}
+
+/* .app {
+  display: flex;
+  position: relative;
+} */
+
+.port-button {
+  background-color: transparent;
+  border: transparent;
+  cursor: copy;
+}
 @keyframes change {
   0% {
     background-position: 0% 50%;
@@ -16,31 +58,147 @@ body {
   50% {
     background-position: 100% 50%;
   }
-  100% {
+  0% {
     background-position: 0% 50%;
   }
 }
 
-.about-page {
-  background-color: lavender;
-  position: absolute;
+.mov {
+  background-color: rgba(5, 37, 58, 0.685);
   display: flex;
-  border-radius: 3%;
-  flex: auto;
   flex-direction: column;
+  justify-content: center;
+  justify-items: center;
   align-content: center;
   align-items: center;
   text-align: center;
-  width: 28rem;
-  height: 28rem;
+  width: 40%;
+  height: 40%;
+  position: relative;
+  padding: 3%;
+  border-radius: 0%;
+  margin: auto;
+  left: 20%;
+  margin-top: -25%;
+}
+
+.mov-vid {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  /* right: 15%; */
+  display: flex;
+}
+
+.mov-container {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5%;
+  /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+}
+
+.mov-text {
+}
+
+.contact-containers {
+  display: flex;
+  margin: auto;
+  flex-flow: row;
   justify-content: center;
   justify-items: center;
-  left: 31%;
-  top: 135%;
-  padding: 3rem;
-  font-family: monospace;
+  align-items: flex-end;
+  align-content: center;
+  gap: 1rem;
+  margin-top: 3rem;
 }
-.about-photo {
-  width: 10rem;
-  border-radius: 50%;
+
+.contact-container {
+  /* display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.911);
+  background: linear-gradient(
+    to bottom,
+    rgba(36, 88, 92, 0.836) 25%,
+    white 25%
+  );
+  border-radius: 3%;
+  margin: 1rem;
+  padding: 10%;
+  width: 25%;
+  box-shadow: 5px 6px 5px rgba(0, 0, 0, 0.377);
+  color: rgba(100, 100, 100, 0.877); */
+  background-color: rgba(255, 255, 255, 0.911);
+  background: linear-gradient(
+      to bottom,
+      rgba(36, 88, 92, 0.281) 40%,
+      rgba(255, 255, 255, 0.315)
+    ),
+    10%;
+  box-shadow: 5px 6px 5px rgba(0, 0, 0, 0.377);
+  color: rgba(100, 100, 100, 0.877);
+  border-radius: 3%;
+  flex-basis: auto;
+  display: flex;
+  text-align: center;
+  padding: 3rem;
+  margin: 1rem;
+}
+
+.contact-logo {
+  color: white;
+  /* /* margin-top: -50px; */
+}
+
+.contact-text {
+  /* margin-top: 40%; */
+}
+
+.container-box {
+  background-color: rgba(230, 230, 250, 0);
+  border-radius: 1%;
+  padding: 4rem;
+  /* box-shadow: 5px 6px 5px rgba(0, 0, 0, 0.377); */
+  margin-top: -8rem;
+}
+.aboutTest {
+  display: flex;
+  margin: auto;
+  flex-flow: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  gap: 1rem;
+  background: linear-gradient(
+      to bottom,
+      rgba(36, 88, 92, 0.281) 40%,
+      rgba(224, 224, 224, 0.685)
+    ),
+    10%;
+  box-shadow: 5px 6px 5px rgba(0, 0, 0, 0.377);
+  color: rgba(24, 24, 24, 0.877);
+  border-radius: 0%;
+  padding: 3rem;
+}
+
+.contact-box {
+}
+
+.button {
+}
+
+.email-placeholder {
+  display: block;
+  color: lavender;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 0.2rem;
 }

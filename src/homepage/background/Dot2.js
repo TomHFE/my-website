@@ -6,7 +6,7 @@ export default function Dot2() {
     hidden: { x: 1260, y: 70 },
     visible: {
       x: 320,
-      y: 70,
+      y: 170,
       transition: { duration: 4, ease: "easeInOut" },
     },
   };

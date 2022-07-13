@@ -26,7 +26,7 @@ const AboutPage = () => {
         <p>
           Hello my name's tom and for the past 9 months I have been developing
           my skills in web development. Being purely self taught I have managed
-          to develop an understanding of the following consepts.
+          to develop an understanding of the following concepts.
         </p>
         <ul>
           <li>React</li>
@@ -37,6 +37,10 @@ const AboutPage = () => {
             Framer Motion
           </li>
           <li>Experience testing and troubleshooting UI/UX</li>
+          <li>
+            Proven experience hosting websites through netlify along with
+            linking to personal domain
+          </li>
         </ul>
       </motion.div>
     </motion.div>

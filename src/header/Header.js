@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div>
-      <motion.div className="header-theme">
+      <motion.div>
         <motion.div>
           <Link to="/">
             <Logo />
@@ -20,8 +20,12 @@ const Header = () => {
           <Link to="/about">
             <About className="header-options" />
           </Link>
-          <Portfolio className="header-options" />
-          <Contact className="header-options" />
+          <Link to="/portfolio">
+            <Portfolio className="header-options" />
+          </Link>
+          <Link to="/contact">
+            <Contact className="header-options" />
+          </Link>
           <CV className="header-options" />
         </motion.div>
       </motion.div>

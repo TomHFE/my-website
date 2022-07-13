@@ -1,7 +1,11 @@
 .dot {
   height: 250px;
   width: 250px;
-  background: linear-gradient(-45deg, rgba(235, 74, 74, 0.74), yellow);
+  background: linear-gradient(
+    -45deg,
+    rgba(235, 74, 74, 0.74),
+    rgb(190, 190, 184)
+  );
   background-size: 400% 400%;
   position: relative;
   animation: change 10s ease-in-out infinite;
@@ -32,8 +36,8 @@
   width: 200px;
   background: linear-gradient(
     -45deg,
-    rgba(235, 74, 74, 0.801),
-    rgb(42, 27, 250)
+    rgba(119, 119, 119, 0.801),
+    rgb(150, 160, 63)
   );
   background-size: 400% 400%;
   position: relative;
