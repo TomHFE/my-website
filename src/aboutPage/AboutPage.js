@@ -2,11 +2,6 @@ import { motion } from "framer-motion";
 import tom from "./tom.jpg";
 
 const AboutPage = () => {
-  const aboutVariants = {
-    hidden: { opacity: 0 },
-    visible: { opacity: 1, duration: 2 },
-  };
-
   return (
     <motion.div className="about-page">
       <motion.div

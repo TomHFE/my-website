@@ -1,8 +1,6 @@
 import React from "react";
 import { AiFillLinkedin } from "react-icons/ai";
-import { IconContext } from "react-icons/lib";
 import { AiFillGithub } from "react-icons/ai";
-import { SiMinutemailer } from "react-icons/si";
 import { motion } from "framer-motion";
 import AboutPagetest from "../aboutpage/AboutPagetest";
 import EmailContent from "./EmailContent";

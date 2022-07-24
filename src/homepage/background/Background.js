@@ -1,9 +1,7 @@
-import { motion } from "framer-motion";
 import "./Background.css";
 import Dot from "./Dot";
 import Dot2 from "./Dot2";
 import Dot3 from "./Dot3";
-import Dot4 from "./Dot4";
 
 export default function Background() {
   return (

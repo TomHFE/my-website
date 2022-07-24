@@ -2,10 +2,6 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-router-dom";
-import About from "./options/About";
-import Portfolio from "./options/Portfolio";
-import Contact from "./options/Contact";
-import CV from "./options/CV";
 
 const OptionsBar = () => {
   const [open, setOpen] = useState(false);
