@@ -6,7 +6,7 @@ export default function Dot3() {
     hidden: { x: 260, y: -560 },
     visible: {
       x: 260,
-      y: 280,
+      y: 130,
       transition: { duration: 5.5, ease: "easeInOut" },
     },
   };

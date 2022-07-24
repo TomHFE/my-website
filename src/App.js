@@ -1,20 +1,23 @@
 import Header from "./header/Header";
 import Homepage from "./homepage/Homepage";
-import AboutPage from "./aboutPage/AboutPage";
+import AboutPage from "./aboutpage/AboutPage";
 import { Route, Routes } from "react-router";
 import "./main.css";
-import PortfolioPage from "./portfolioPage/PortfolioPage";
-import ContactPage from "./contactPage/ContactPage";
+import PortfolioPage from "./portfoliopage/PortfolioPage";
+import ContactPage from "./contactpage/ContactPage";
+import OptionsBar from "./header/OptionsBar";
+import CvPage from "./CvPage";
 
 const App = () => {
   return (
     <div>
       <Header />
+      <OptionsBar />
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="/about" element={<AboutPage />} />
         <Route path="/portfolio" element={<PortfolioPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/cv" element={<CvPage />} />
       </Routes>
       <footer> </footer>
     </div>

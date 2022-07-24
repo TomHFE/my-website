@@ -1,3 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+
+* {
+  font-family: "Space Mono";
+  text-decoration: none;
+}
+
+a {
+  color: black;
+  display: block;
+}
+a:hover {
+  color: orange;
+  display: block;
+}
+
 /* body {
   background: linear-gradient(
     -45deg,
@@ -38,7 +54,8 @@ body {
 }
 .about-photo {
   width: 10rem;
-  border-radius: 50%;
+  border-radius: 0%;
+  border: 1.3rem solid cornsilk;
 }
 
 /* .app {
@@ -135,14 +152,9 @@ body {
   box-shadow: 5px 6px 5px rgba(0, 0, 0, 0.377);
   color: rgba(100, 100, 100, 0.877); */
   background-color: rgba(255, 255, 255, 0.911);
-  background: linear-gradient(
-      to bottom,
-      rgba(36, 88, 92, 0.281) 40%,
-      rgba(255, 255, 255, 0.315)
-    ),
-    10%;
-  box-shadow: 5px 6px 5px rgba(0, 0, 0, 0.377);
-  color: rgba(100, 100, 100, 0.877);
+  background: rgb(134, 134, 134);
+  /* box-shadow: 5px 6px 5px rgba(0, 0, 0, 0.377); */
+  color: rgba(160, 160, 160, 0.877);
   border-radius: 3%;
   flex-basis: auto;
   display: flex;
@@ -176,13 +188,14 @@ body {
   align-items: center;
   align-content: center;
   gap: 1rem;
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       rgba(36, 88, 92, 0.281) 40%,
       rgba(224, 224, 224, 0.685)
     ),
-    10%;
-  box-shadow: 5px 6px 5px rgba(0, 0, 0, 0.377);
+    10%; */
+  background: rgba(255, 248, 220, 0);
+  /* box-shadow: 5px 6px 5px rgba(0, 0, 0, 0.377); */
   color: rgba(24, 24, 24, 0.877);
   border-radius: 0%;
   padding: 3rem;
@@ -201,4 +214,14 @@ body {
   flex-direction: column;
   gap: 0.3rem;
   padding: 0.2rem;
+}
+.options-menu {
+  flex-direction: column;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  position: absolute;
+  flex-basis: auto;
 }

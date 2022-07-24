@@ -6,28 +6,18 @@ import Contact from "./options/Contact";
 import CV from "./options/CV";
 import "./header.css";
 import { Link } from "react-router-dom";
+import OptionsBar from "./OptionsBar";
 
 const Header = () => {
   return (
     <div>
-      <motion.div>
+      <motion.div className="header-content">
         <motion.div>
           <Link to="/">
             <Logo />
           </Link>
         </motion.div>
-        <motion.div className="header-content">
-          <Link to="/about">
-            <About className="header-options" />
-          </Link>
-          <Link to="/portfolio">
-            <Portfolio className="header-options" />
-          </Link>
-          <Link to="/contact">
-            <Contact className="header-options" />
-          </Link>
-          <CV className="header-options" />
-        </motion.div>
+        {/* <OptionsBar /> */}
       </motion.div>
     </div>
   );

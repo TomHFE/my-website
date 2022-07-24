@@ -4,7 +4,7 @@ import { IconContext } from "react-icons/lib";
 import { AiFillGithub } from "react-icons/ai";
 import { SiMinutemailer } from "react-icons/si";
 import { motion } from "framer-motion";
-import AboutPagetest from "../aboutPage/AboutPagetest";
+import AboutPagetest from "../aboutpage/AboutPagetest";
 import EmailContent from "./EmailContent";
 
 const ContactPage = () => {
@@ -22,7 +22,7 @@ const ContactPage = () => {
         <motion.div className="contact-containers">
           <a href={gitLink} target="_blank" rel="noopener noreferrer">
             <motion.div
-              style={{ color: "grey" }}
+              style={{ color: " rgba(300, 300, 300, 0.877)" }}
               whileHover={{
                 color: "white",
                 scale: 1.2,
@@ -61,7 +61,7 @@ const ContactPage = () => {
           </a> */}
           <a href={linkedinLink} target="_blank" rel="noopener noreferrer">
             <motion.div
-              style={{ color: "grey" }}
+              style={{ color: " rgba(300, 300, 300, 0.877)" }}
               whileHover={{
                 color: "white",
                 scale: 1.2,
