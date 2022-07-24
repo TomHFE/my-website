@@ -12,7 +12,7 @@ export default function MovLinks() {
         <a href={movieApp} target="_blank" rel="noopener noreferrer">
           <motion.button
             className="port-button"
-            style={{ color: "pink" }}
+            style={{ color: "white" }}
             whileHover={{
               scale: 1.2,
               transition: { duration: 0.2 },
@@ -26,7 +26,7 @@ export default function MovLinks() {
         <a href={movieAppGit} target="_blank" rel="noopener noreferrer">
           <motion.button
             className="port-button"
-            style={{ color: "pink" }}
+            style={{ color: "white" }}
             whileHover={{
               scale: 1.2,
               transition: { duration: 0.2 },
