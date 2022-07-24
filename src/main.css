@@ -47,7 +47,6 @@ body {
   justify-content: flex-start;
   justify-items: flex-start;
   left: 31%;
-  /* top: 135%; */
   padding: 3rem;
   font-family: monospace;
   box-shadow: 5px 6px 5px rgba(0, 0, 0, 0.377);
@@ -57,11 +56,6 @@ body {
   border-radius: 0%;
   border: 1.3rem solid cornsilk;
 }
-
-/* .app {
-  display: flex;
-  position: relative;
-} */
 
 .port-button {
   background-color: transparent;

@@ -1,13 +1,11 @@
 import { motion } from "framer-motion";
 import Logo from "./logo/Logo";
-
-import "./header.css";
 import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <div>
-      <motion.div className="header-content">
+      <motion.div>
         <motion.div>
           <Link to="/">
             <Logo />
