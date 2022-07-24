@@ -15,7 +15,7 @@ const PortfolioPage = () => {
           scale: 1.2,
         }}
         className="mov"
-        onHoverStart={{ opacity: 1 }}
+        // onHoverStart={{ opacity: 1 }}
       >
         <h1>Movie App</h1>
         <MovLinks />
@@ -52,7 +52,7 @@ const PortfolioPage = () => {
             scale: 1.2,
           }}
           className="mov"
-          onHoverStart={{ opacity: 1 }}
+          // onHoverStart={{ opacity: 1 }}
         >
           <h1>Website</h1>
           <MovLinks />
