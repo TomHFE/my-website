@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import MovLinks from "./MovLinks";
 import PortfolioVideo from "./PortfolioVideo";
-import PortfolioVideo2 from "./PortfolioVideo2";
+import PortfolioVideo2 from "./PortfolioVideosecond";
 
 const PortfolioPage = () => {
   return (
@@ -16,7 +16,6 @@ const PortfolioPage = () => {
           opacity: 1,
         }}
         className="mov"
-        // onHoverStart={{ opacity: 1 }}
       >
         <h1>Movie App</h1>
         <MovLinks />

@@ -1,6 +1,6 @@
-import portfolioVideoWebsite from "./portfolioVideo2.mp4";
+import portfolioVideoWebsite from "./portfolioVideosecond.mp4";
 
-export default function PortfolioVideo2() {
+export default function PortfolioVideosecond() {
   return (
     <div className="mov-vid">
       <video
