@@ -12,11 +12,11 @@ export default function MovLinks() {
         <a href={movieApp} target="_blank" rel="noopener noreferrer">
           <motion.button
             className="port-button"
-            style={{ color: "white" }}
+            style={{ color: "hsla(214, 68%, 100%, 1)" }}
             whileHover={{
               scale: 1.2,
               transition: { duration: 0.2 },
-              color: "green",
+              color: "hsla(50, 100%, 55%, 1)",
             }}
             whileTap={{ scale: 0.9 }}
           >
@@ -26,11 +26,11 @@ export default function MovLinks() {
         <a href={movieAppGit} target="_blank" rel="noopener noreferrer">
           <motion.button
             className="port-button"
-            style={{ color: "white" }}
+            style={{ color: "hsla(214, 68%, 100%, 1)" }}
             whileHover={{
               scale: 1.2,
               transition: { duration: 0.2 },
-              color: "yellow",
+              color: "hsla(50, 100%, 55%, 1)",
             }}
             whileTap={{ scale: 0.9 }}
           >

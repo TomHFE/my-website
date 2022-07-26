@@ -6,7 +6,7 @@
 }
 
 a {
-  color: black;
+  color: rgb(29, 29, 29);
   display: block;
 }
 a:hover {
@@ -145,7 +145,6 @@ body {
   background-color: rgba(255, 255, 255, 0.911);
   background: rgb(134, 134, 134);
   /* box-shadow: 5px 6px 5px rgba(0, 0, 0, 0.377); */
-  color: rgba(160, 160, 160, 0.877);
   border-radius: 3%;
   flex-basis: auto;
   display: flex;

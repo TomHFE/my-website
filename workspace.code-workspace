@@ -1,13 +1,13 @@
 {
   "folders": [
-	{
-		"name": "my-website",
-		"path": "."
-	},
-	{
-		"name": "src",
-		"path": "../Desktop/src"
-	}
-],
+    {
+      "name": "my-website",
+      "path": "."
+    },
+    {
+      "name": "src",
+      "path": "../Desktop/src"
+    }
+  ],
   "settings": {}
 }

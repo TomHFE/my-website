@@ -5,6 +5,8 @@ import { motion } from "framer-motion";
 import AboutPagetest from "../aboutpage/AboutPagetest";
 import EmailContent from "./EmailContent";
 
+// see if you need to change while hover to a use state hook
+
 const ContactPage = () => {
   // git linkedin email
 
@@ -20,9 +22,7 @@ const ContactPage = () => {
         <motion.div className="contact-containers">
           <a href={gitLink} target="_blank" rel="noopener noreferrer">
             <motion.div
-              style={{ color: " rgba(300, 300, 300, 0.877)" }}
               whileHover={{
-                color: "white",
                 scale: 1.2,
               }}
               whileTap={{
@@ -59,9 +59,7 @@ const ContactPage = () => {
           </a> */}
           <a href={linkedinLink} target="_blank" rel="noopener noreferrer">
             <motion.div
-              style={{ color: " rgba(300, 300, 300, 0.877)" }}
               whileHover={{
-                color: "white",
                 scale: 1.2,
               }}
               whileTap={{

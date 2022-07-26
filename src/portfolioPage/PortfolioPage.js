@@ -8,11 +8,12 @@ const PortfolioPage = () => {
     <div className="mov-container">
       <PortfolioVideo />
       <motion.div
-        style={{ color: "pink" }}
+        style={{ color: "hsla(308, 64%, 74%, 1)" }}
         whileHover={{
-          backgroundColor: "rgb(5, 37, 58, 0.95)",
-          color: "white",
+          backgroundColor: "hsla(200, 47%, 14%, 0.88)",
+          color: "hsla(227, 88%, 100%, 1)",
           scale: 1.2,
+          opacity: 1,
         }}
         className="mov"
         // onHoverStart={{ opacity: 1 }}
@@ -45,10 +46,10 @@ const PortfolioPage = () => {
       <motion.div style={{ marginTop: "7rem" }}>
         <PortfolioVideo2 />
         <motion.div
-          style={{ color: "pink" }}
+          style={{ color: "hsla(308, 64%, 74%, 1)" }}
           whileHover={{
-            backgroundColor: "rgb(5, 37, 58, 0.95)",
-            color: "white",
+            backgroundColor: "hsla(200, 47%, 14%, 0.88)",
+            color: "hsla(227, 88%, 100%, 1)",
             scale: 1.2,
           }}
           className="mov"
