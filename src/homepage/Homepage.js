@@ -1,5 +1,5 @@
-import Intro from "./Intro";
-import Background from "./background/Background";
+import Intro from "./intro";
+import Background from "./background/background";
 
 const Homepage = () => {
   return (

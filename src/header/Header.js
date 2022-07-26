@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Logo from "./logo/Logo";
+import Logo from "./logo/logo";
 import { Link } from "react-router-dom";
 
 const Header = () => {

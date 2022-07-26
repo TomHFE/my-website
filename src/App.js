@@ -1,11 +1,11 @@
-import Header from "./header/Header";
-import Homepage from "./homepage/Homepage";
+import Header from "./header/header";
+import Homepage from "./homepage/homepage";
 import { Route, Routes } from "react-router";
 import "./main.css";
-import PortfolioPage from "./portfoliopage/PortfolioPage";
-import ContactPage from "./contactpage/ContactPage";
-import OptionsBar from "./header/OptionsBar";
-import CvPage from "./CvPage";
+import PortfolioPage from "./portfoliopage/portfoliopage";
+import ContactPage from "./contactpage/contactpage";
+import OptionsBar from "./header/optionsbar";
+import CvPage from "./cvpage";
 
 const App = () => {
   return (

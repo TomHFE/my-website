@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
-import T from "./T";
-import O from "./O";
-import M from "./M";
-import E from "./E";
-import N from "./N";
-import G from "./G";
-import L from "./L";
-import A from "./A";
-import D from "./D";
+import T from "./t";
+import O from "./o";
+import M from "./m";
+import E from "./e";
+import N from "./n";
+import G from "./g";
+import L from "./l";
+import A from "./a";
+import D from "./d";
 
 const Logo = () => {
   // const variants = {

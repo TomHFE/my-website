@@ -1,7 +1,7 @@
-import "./Background.css";
-import Dot from "./Dot";
-import Dot2 from "./Dot2";
-import Dot3 from "./Dot3";
+import "./background.css";
+import Dot from "./dot";
+import Dot2 from "./dottwo";
+import Dot3 from "./dotthree";
 
 export default function Background() {
   return (

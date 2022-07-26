@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
-import MovLinks from "./MovLinks";
-import PortfolioVideo from "./PortfolioVideo";
-import PortfolioVideo2 from "./PortfolioVideosecond";
+import MovLinks from "./movlinks";
+import PortfolioVideo from "./portfoliovideo";
+import PortfolioVideo2 from "./portfoliovideosecond";
 
 const PortfolioPage = () => {
   return (

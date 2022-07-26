@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import "./Background.css";
+import "./background.css";
 
 export default function Dot() {
   const circleVariants = {

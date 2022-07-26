@@ -2,8 +2,8 @@ import React from "react";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import { motion } from "framer-motion";
-import AboutPagetest from "../aboutpage/AboutPagetest";
-import EmailContent from "./EmailContent";
+import AboutPagetest from "../aboutpage/aboutpagetest";
+import EmailContent from "./emailcontent";
 
 // see if you need to change while hover to a use state hook
 

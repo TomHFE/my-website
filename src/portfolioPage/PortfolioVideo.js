@@ -1,4 +1,4 @@
-import portfolioVideoFirst from "./portfolioVideo.mp4";
+import portfolioVideoFirst from "./portfoliovideo.mp4";
 
 export default function PortfolioVideo() {
   return (

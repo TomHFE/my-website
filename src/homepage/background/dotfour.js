@@ -1,19 +1,19 @@
 import { motion } from "framer-motion";
-import "./Background.css";
+import "./background.css";
 
-export default function Dot3() {
+export default function Dot4() {
   const circleVariants = {
-    hidden: { x: 260, y: -560 },
+    hidden: { x: 220, y: 1260 },
     visible: {
-      x: 260,
-      y: 130,
-      transition: { duration: 5.5, ease: "easeInOut" },
+      x: 220,
+      y: -300,
+      transition: { duration: 10, ease: "easeInOut" },
     },
   };
 
   return (
     <motion.div
-      className="dot-three"
+      className="dot-four"
       variants={circleVariants}
       initial="hidden"
       animate="visible"
