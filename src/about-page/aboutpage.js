@@ -19,9 +19,9 @@ const AboutPage = () => {
         />
         <h1>ABOUT</h1>
         <p>
-          Hello my name's tom and for the past 9 months I have been developing
-          my skills in web development. Being purely self taught I have managed
-          to develop an understanding of the following concepts.
+          For the past year I have been developing my skills in web development.
+          Being purely self taught I have managed to develop an understanding of
+          the following concepts.
         </p>
         <ul>
           <li>React</li>
