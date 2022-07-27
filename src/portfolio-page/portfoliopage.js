@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import MovLinks from "./movlinks";
+import MovLinks from "./linksmovieapp";
+import WebLinks from "./linkswebsite";
 import PortfolioVideo from "./portfoliovideo";
 import PortfolioVideo2 from "./portfoliovideosecond";
 
@@ -55,7 +56,7 @@ const PortfolioPage = () => {
           // onHoverStart={{ opacity: 1 }}
         >
           <h1>Website</h1>
-          <MovLinks />
+          <WebLinks />
           <div className="mov-text">
             <p>
               Portfolio site with responsive user interface built with framer
