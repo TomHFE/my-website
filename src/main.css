@@ -205,3 +205,19 @@ body {
   position: absolute;
   flex-basis: auto;
 }
+
+.cv-image {
+  height: 60rem;
+}
+.cv-layout {
+  flex-direction: column;
+  gap: 3rem;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  position: relative;
+  flex-basis: auto;
+  margin: auto;
+}

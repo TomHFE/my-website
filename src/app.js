@@ -5,7 +5,7 @@ import "./main.css";
 import PortfolioPage from "./portfolio-page/portfoliopage";
 import ContactPage from "./contact-page/contactpage";
 import OptionsBar from "./header/optionsbar";
-import CvPage from "./cvpage";
+import CvPage from "./cv-page/cvpage";
 
 const App = () => {
   return (
