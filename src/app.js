@@ -2,8 +2,8 @@ import Header from "./header/header";
 import Homepage from "./homepage/homepage";
 import { Route, Routes } from "react-router";
 import "./main.css";
-import PortfolioPage from "./portfoliopage/portfoliopage";
-import ContactPage from "./contactpage/contactpage";
+import PortfolioPage from "./portfolio-page/portfoliopage";
+import ContactPage from "./contact-page/contactpage";
 import OptionsBar from "./header/optionsbar";
 import CvPage from "./cvpage";
 
