@@ -7,7 +7,9 @@ import PortfolioVideo2 from "./portfoliovideosecond";
 const PortfolioPage = () => {
   return (
     <div className="mov-container">
-      <PortfolioVideo />
+      <div className="mov-containerz">
+        <PortfolioVideo />
+      </div>
       <motion.div
         style={{ color: "hsla(308, 64%, 74%, 1)" }}
         whileHover={{
@@ -19,6 +21,7 @@ const PortfolioPage = () => {
         className="mov"
       >
         <h1>Movie App</h1>
+
         <MovLinks />
         <div className="mov-text">
           <p>
@@ -44,7 +47,9 @@ const PortfolioPage = () => {
         </div>
       </motion.div>
       <motion.div style={{ marginTop: "7rem" }}>
-        <PortfolioVideo2 />
+        <div className="mov-containerz">
+          <PortfolioVideo2 />
+        </div>
         <motion.div
           style={{ color: "hsla(308, 64%, 74%, 1)" }}
           whileHover={{

@@ -8,8 +8,8 @@ export default function PortfolioVideosecond() {
         loop
         autoPlay
         muted
-        width="950"
-        height="500"
+        width="100%"
+        max-height="100%"
         src={portfolioVideoWebsite}
         type="video/mp4"
       />

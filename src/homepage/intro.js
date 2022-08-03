@@ -12,7 +12,6 @@ export default function Intro() {
         Looking to get my first job
       </motion.h1>
       <motion.h1 variants={introVariants} initial="hidden" animate="visible">
-        {" "}
         in web development
       </motion.h1>
     </motion.div>

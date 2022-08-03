@@ -19,13 +19,7 @@ const AboutPagetest = () => {
           transition={{ duration: 2 }}
         />
         <h1 style={{ color: "orange" }}>ABOUT</h1>
-        <div
-          style={{
-            backgroundColor: "white",
-            padding: "2rem",
-            borderRadius: "0.5rem",
-          }}
-        >
+        <div className="about-section">
           <p>
             For the past year I have been developing my skills in web
             development. Being purely self taught I have managed to develop an

@@ -1,15 +1,27 @@
 import { motion } from "framer-motion";
 import "./background.css";
+import { useIsLarge } from "./useislarge";
 
 export default function Dot2() {
-  const circleVariants = {
-    hidden: { x: 1260, y: 70 },
-    visible: {
-      x: 320,
-      y: 20,
-      transition: { duration: 4, ease: "easeInOut" },
-    },
-  };
+  const isLarge = useIsLarge();
+
+  const circleVariants = isLarge
+    ? {
+        hidden: { x: "-30vw", y: "1vh" },
+        visible: {
+          x: "40vw",
+          y: "1vh",
+          transition: { duration: 6, ease: "easeInOut" },
+        },
+      }
+    : {
+        hidden: { x: 1260, y: 70 },
+        visible: {
+          x: "25vw",
+          y: "-45vh",
+          transition: { duration: 4, ease: "easeInOut" },
+        },
+      };
 
   return (
     <motion.div

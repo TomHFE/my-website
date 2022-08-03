@@ -2,10 +2,11 @@ import "./background.css";
 import Dot from "./dot";
 import Dot2 from "./dottwo";
 import Dot3 from "./dotthree";
+// import Intro from "../intro";
 
 export default function Background() {
   return (
-    <div>
+    <div className="dots">
       <Dot />
       <Dot2 />
       <Dot3 />
