@@ -31,7 +31,7 @@ const PortfolioPage = () => {
             runtime and actors/directors involved with the film.
           </p>
           <h3>Features</h3>
-          <ul>
+          <ul className="port-text">
             <li>Input search to an API through an async function</li>
             <li>Error handling and redirect</li>
             <li>Animated transitions and flex compatibility</li>
@@ -70,7 +70,7 @@ const PortfolioPage = () => {
               CV.
             </p>
             <h3>Features</h3>
-            <ul>
+            <ul className="port-text">
               <li>Responsive web design</li>
               <li>EmailJS</li>
               <li>Animated transitions and flex compatibility</li>

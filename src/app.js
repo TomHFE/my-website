@@ -10,10 +10,14 @@ import CvPage from "./cv-page/cvpage";
 const App = () => {
   return (
     <div>
-      <Header />
-      <OptionsBar />
+      <div className="center-home">
+        <Header />
+        <OptionsBar />
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+        </Routes>
+      </div>
       <Routes>
-        <Route path="/" element={<Homepage />} />
         <Route path="/portfolio" element={<PortfolioPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/cv" element={<CvPage />} />

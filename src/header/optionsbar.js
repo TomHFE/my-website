@@ -2,13 +2,35 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-router-dom";
+import { ImCross } from "react-icons/im";
 
 const OptionsBar = () => {
   const [open, setOpen] = useState(false);
+
+  const variants = {
+    initial: {
+      opacity: 1,
+    },
+    animate: {
+      opacity: 0,
+    },
+  };
+
   return (
     <div>
+      <div onClick={() => setOpen(!open)}>
+        {open ? (
+          <div>
+            <ImCross />
+          </div>
+        ) : (
+          <div>
+            <GiHamburgerMenu />
+          </div>
+        )}
+      </div>
       <motion.div
-        transition={{ layout: { duration: 1, type: "spring" } }}
+        // transition={{ layout: { duration: 1, type: "spring" } }}
         layout
         onClick={() => setOpen(!open)}
         style={{
@@ -19,24 +41,16 @@ const OptionsBar = () => {
           borderRadius: "0.4rem",
           width: open ? "8rem" : "2rem",
           height: open ? "10rem" : "3rem",
-          justifyContent: "center",
-          alignItems: "center",
-          alignContent: "center",
+          justifyContent: "left",
+          alignItems: "left",
+          alignContent: "left",
         }}
       >
-        <motion.h2>
-          <GiHamburgerMenu
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1 }}
-            layout="position"
-          />
-        </motion.h2>
-        {open && (
+        {open ? (
           <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1 }}
+            // initial={{ opacity: 0 }}
+            // animate={{ opacity: 1 }}
+            // transition={{ duration: 1 }}
             layout="position"
           >
             <div>
@@ -48,6 +62,8 @@ const OptionsBar = () => {
               </motion.div>
             </div>
           </motion.div>
+        ) : (
+          <motion.div></motion.div>
         )}
       </motion.div>
     </div>
