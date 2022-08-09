@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import tom from "./tom.jpg";
+// import tom from "./tom.jpg";
 
 const AboutPagetest = () => {
   return (
@@ -10,14 +10,14 @@ const AboutPagetest = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        <motion.img
+        {/* <motion.img
           src={tom}
           alt="tom"
           className="about-photo"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 2 }}
-        />
+        /> */}
         <h1 style={{ color: "orange" }}>ABOUT</h1>
         <div className="about-section">
           <p>
