@@ -7,14 +7,14 @@ import { ImCross } from "react-icons/im";
 const OptionsBar = () => {
   const [open, setOpen] = useState(false);
 
-  const variants = {
-    initial: {
-      opacity: 1,
-    },
-    animate: {
-      opacity: 0,
-    },
-  };
+  // const variants = {
+  //   initial: {
+  //     opacity: 1,
+  //   },
+  //   animate: {
+  //     opacity: 0,
+  //   },
+  // };
 
   return (
     <div>
